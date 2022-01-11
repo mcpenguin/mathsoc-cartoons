@@ -1,102 +1,102 @@
 [
     [
-        -6.0,
+        -1.5,
         "Sign + Return Writer Contract"
     ],
     [
-        -6.0,
+        -1.5,
         "Ask - Mail To Writer Or Pick Up At Mathsoc Office"
     ],
     [
-        -4.5,
+        0.0,
         "Remind Writer About Sketch"
     ],
     [
-        -4.0,
+        0.5,
         "Get Feedback From Student Reviewers"
     ],
     [
-        -4.0,
+        0.5,
         "Get Feedback From Prof Reviewers"
     ],
     [
-        -4.0,
+        0.5,
         "Submit Cheque Request For Writer (Unless The Comic Runs Long)"
     ],
     [
-        -3.5,
+        1.0,
         "Revise Sketch Using Feedback"
     ],
     [
-        -4.0,
+        0.5,
         "Ask Who Is Interested In Drawing The Sketch"
     ],
     [
-        -3.5,
+        1.0,
         "Let Artists Know Who Got The Jobs"
     ],
     [
-        -3.5,
+        1.0,
         "Sign And Return Contract With Artist"
     ],
     [
-        -3.0,
+        1.5,
         "Remind Artist About First Draft Due"
     ],
     [
-        -2.0,
+        2.5,
         "When Artist Finishes First Draft - Revisions If Necessary"
     ],
     [
-        -1.0,
+        3.5,
         "Remind Artist About Final Art"
     ],
     [
-        0.0,
+        4.5,
         "When Artist Finishes Final Art - Revisions If Necessary. Make Sure It Does Not Contain Copyrighted Material."
     ],
     [
-        0.0,
+        4.5,
         "Submit Cheque Request For Artist (3 Parts + Maybe Reimbursement If They Have It)"
     ],
     [
-        0.0,
+        4.5,
         "Email Finished Comic To Mef (Mefcom)"
     ],
     [
-        0.0,
+        4.5,
         "Post On Mathsoc Cartoons Fb/Instagram"
     ],
     [
-        0.0,
+        4.5,
         "Request To Post On Mathsoc Social Media"
     ],
     [
-        0.0,
+        4.5,
         "Request To Post In Mathnews"
     ],
     [
-        0.0,
+        4.5,
         "Request To Post On Mathsoc Website"
     ],
     [
-        0.0,
+        4.5,
         "Ask Instructors For The Course To Distribute In Class"
     ],
     [
-        0.0,
+        4.5,
         "Get Final Feedback From Student Reviewers"
     ],
     [
-        1.0,
+        5.5,
         "Show Artists/Writers Where Work Is Published"
     ],
     [
-        1.0,
+        5.5,
         "Present Feedback To Artist"
     ],
     [
-        3.0,
+        7.5,
         "Follow Up To Make Sure Artist And Writer Received Cheque - This May Take Longer Due To Mailing Delays :("
     ]
 ]

@@ -12,12 +12,12 @@ def convert_week_to_day(week):
     # return floor(week * 7)
     return int(round(week * 7))
 
-def gen_event(weeks, comicNo, comicPubDate, summary, uid):
+def gen_event(weeks, comicNo, comicSketchDueDate, summary, uid):
     # create event
     event = Event()
     # set event properties
     event['summary'] = f"(Cartoons) C{comicNo} - {summary}"
-    event.add('dtstart', comicPubDate + timedelta(days=convert_week_to_day(weeks)))
+    event.add('dtstart', comicSketchDueDate + timedelta(days=convert_week_to_day(weeks)))
     event['dtend'] = event['dtstart']
     # event['description'] = f"Comic {comicNo} - {name}"
     event['uid'] = uid
@@ -43,12 +43,13 @@ for row in deadlines_reader:
     count = 0
     # iterate through each comic reminder
     for comic_reminder in comic_reminders:
+        # get publishing date
         try:
             # generate event
             event = gen_event(
                 float(comic_reminder[0]),
                 row[0],
-                datetime.strptime(row[-1], '%d/%m/%Y'),
+                datetime.strptime(row[1], '%d/%m/%Y'),
                 comic_reminder[1],
                 f"{row[0]}_{count}"
             )
