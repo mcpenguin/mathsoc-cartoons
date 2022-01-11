@@ -1,0 +1,25 @@
+0: Sign + Return Writer Contract
+0: Ask - mail to writer or pick up at MathSoc office
+1.5: Remind writer about sketch
+2: get feedback from student reviewers
+2: get feedback from prof reviewers
+2: submit cheque request for writer (unless the comic runs long)
+2.5: revise sketch using feedback
+2: Ask who is interested in drawing the sketch
+2.5: let artists know who got the jobs
+2.5: sign and return contract with artist
+3: remind artist about first draft due
+4: when artist finishes first draft - revisions if necessary
+5: remind artist about final art
+6: when artist finishes final art - revisions if necessary. make sure it does not contain copyrighted material.
+6: submit cheque request for artist (3 parts + maybe reimbursement if they have it)
+6: email finished comic to MEF (mefcom)
+6: post on MathSoc Cartoons FB/Instagram
+6: request to post on MathSoc social media
+6: request to post in MathNEWS
+6: request to post on MathSoc website
+6: ask instructors for the course to distribute in class
+6: get final feedback from student reviewers
+7: show artists/writers where work is published
+7: present feedback to artist
+9: follow up to make sure artist and writer received cheque - this may take longer due to mailing delays :(

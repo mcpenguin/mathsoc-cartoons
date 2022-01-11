@@ -1,0 +1,102 @@
+[
+    [
+        -6.0,
+        "Sign + Return Writer Contract"
+    ],
+    [
+        -6.0,
+        "Ask - mail to writer or pick up at MathSoc office"
+    ],
+    [
+        -4.5,
+        "Remind writer about sketch"
+    ],
+    [
+        -4.0,
+        "get feedback from student reviewers"
+    ],
+    [
+        -4.0,
+        "get feedback from prof reviewers"
+    ],
+    [
+        -4.0,
+        "submit cheque request for writer (unless the comic runs long)"
+    ],
+    [
+        -3.5,
+        "revise sketch using feedback"
+    ],
+    [
+        -4.0,
+        "Ask who is interested in drawing the sketch"
+    ],
+    [
+        -3.5,
+        "let artists know who got the jobs"
+    ],
+    [
+        -3.5,
+        "sign and return contract with artist"
+    ],
+    [
+        -3.0,
+        "remind artist about first draft due"
+    ],
+    [
+        -2.0,
+        "when artist finishes first draft - revisions if necessary"
+    ],
+    [
+        -1.0,
+        "remind artist about final art"
+    ],
+    [
+        0.0,
+        "when artist finishes final art - revisions if necessary. make sure it does not contain copyrighted material."
+    ],
+    [
+        0.0,
+        "submit cheque request for artist (3 parts + maybe reimbursement if they have it)"
+    ],
+    [
+        0.0,
+        "email finished comic to MEF (mefcom)"
+    ],
+    [
+        0.0,
+        "post on MathSoc Cartoons FB/Instagram"
+    ],
+    [
+        0.0,
+        "request to post on MathSoc social media"
+    ],
+    [
+        0.0,
+        "request to post in MathNEWS"
+    ],
+    [
+        0.0,
+        "request to post on MathSoc website"
+    ],
+    [
+        0.0,
+        "ask instructors for the course to distribute in class"
+    ],
+    [
+        0.0,
+        "get final feedback from student reviewers"
+    ],
+    [
+        1.0,
+        "show artists/writers where work is published"
+    ],
+    [
+        1.0,
+        "present feedback to artist"
+    ],
+    [
+        3.0,
+        "follow up to make sure artist and writer received cheque - this may take longer due to mailing delays :("
+    ]
+]
