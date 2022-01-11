@@ -12,7 +12,7 @@ for line in filein:
     # adding -6 to each value, rounding to 1dp
     line[0] = round(float(line[0]) - 6, 1)
     # remove newline from line[1]
-    line[1] = line[1].strip()
+    line[1] = line[1].strip().title()
     # add to list of events
     eventList.append(line)
 
