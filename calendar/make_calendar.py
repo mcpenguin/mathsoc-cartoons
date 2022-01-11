@@ -12,12 +12,21 @@ def convert_week_to_day(week):
     # return floor(week * 7)
     return int(round(week * 7))
 
-def gen_event(weeks, comicNo, comicSketchDueDate, summary, uid):
+def gen_event(weeks, comicNo, comicSketchDueDate, summary, uid, isSpare, eventType):
     # create event
     event = Event()
     # set event properties
     event['summary'] = f"(Cartoons) C{comicNo} - {summary}"
-    event.add('dtstart', comicSketchDueDate + timedelta(days=convert_week_to_day(weeks)))
+
+    if eventType == "production":
+        if isSpare:
+            days = convert_week_to_day(weeks+10)-int(comicNo)%4
+        else:
+            days = convert_week_to_day(weeks)-int(comicNo)%4
+    else:
+        days = convert_week_to_day(weeks)-int(comicNo)%4
+
+    event.add('dtstart', comicSketchDueDate + timedelta(days=days))
     event['dtend'] = event['dtstart']
     # event['description'] = f"Comic {comicNo} - {name}"
     event['uid'] = uid
@@ -49,13 +58,15 @@ for row in deadlines_reader:
             event = gen_event(
                 float(comic_reminder[0]),
                 row[0],
-                datetime.strptime(row[1], '%d/%m/%Y'),
+                datetime.strptime(f"{row[1]} 12:00:00", '%d/%m/%Y %H:%M:%S'),
                 comic_reminder[1],
-                f"{row[0]}_{count}"
+                f"{row[0]}_{count}",
+                True if row[6] == "Spare" else False,
+                comic_reminder[2]
             )
-            count += 1
             # add event to calendar
             cal.add_component(event)
+            count += 1
         except ValueError:
             pass
 

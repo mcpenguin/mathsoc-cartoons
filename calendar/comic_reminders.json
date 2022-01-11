@@ -1,102 +1,127 @@
 [
     [
         -1.5,
-        "Sign + Return Writer Contract"
+        "Sign + Return Writer Contract",
+        "writer"
     ],
     [
         -1.5,
-        "Ask - Mail To Writer Or Pick Up At Mathsoc Office"
+        "Ask - Mail To Writer Or Pick Up At Mathsoc Office",
+        "writer"
     ],
     [
         0.0,
-        "Remind Writer About Sketch"
+        "Remind Writer About Sketch",
+        "writer"
     ],
     [
         0.5,
-        "Get Feedback From Student Reviewers"
+        "Get Feedback From Student Reviewers",
+        "writer"
     ],
     [
         0.5,
-        "Get Feedback From Prof Reviewers"
+        "Get Feedback From Prof Reviewers",
+        "writer"
     ],
     [
         0.5,
-        "Submit Cheque Request For Writer (Unless The Comic Runs Long)"
+        "Submit Cheque Request For Writer (Unless The Comic Runs Long)",
+        "writer"
     ],
     [
         1.0,
-        "Revise Sketch Using Feedback"
+        "Revise Sketch Using Feedback",
+        "writer"
     ],
     [
         0.5,
-        "Ask Who Is Interested In Drawing The Sketch"
+        "Ask Who Is Interested In Drawing The Sketch",
+        "artist"
     ],
     [
         1.0,
-        "Let Artists Know Who Got The Jobs"
+        "Let Artists Know Who Got The Jobs",
+        "artist"
     ],
     [
         1.0,
-        "Sign And Return Contract With Artist"
+        "Sign And Return Contract With Artist",
+        "artist"
     ],
     [
         1.5,
-        "Remind Artist About First Draft Due"
+        "Remind Artist About First Draft Due",
+        "artist"
     ],
     [
         2.5,
-        "When Artist Finishes First Draft - Revisions If Necessary"
+        "When Artist Finishes First Draft - Revisions If Necessary",
+        "artist"
     ],
     [
         3.5,
-        "Remind Artist About Final Art"
+        "Remind Artist About Final Art",
+        "artist"
     ],
     [
         4.5,
-        "When Artist Finishes Final Art - Revisions If Necessary. Make Sure It Does Not Contain Copyrighted Material."
+        "When Artist Finishes Final Art - Revisions If Necessary. Make Sure It Does Not Contain Copyrighted Material.",
+        "artist"
     ],
     [
         4.5,
-        "Submit Cheque Request For Artist (3 Parts + Maybe Reimbursement If They Have It)"
+        "Submit Cheque Request For Artist (3 Parts + Maybe Reimbursement If They Have It)",
+        "artist"
     ],
     [
         4.5,
-        "Email Finished Comic To Mef (Mefcom)"
+        "Email Finished Comic To Mef (Mefcom)",
+        "production"
     ],
     [
         4.5,
-        "Post On Mathsoc Cartoons Fb/Instagram"
+        "Post On Mathsoc Cartoons Fb/Instagram",
+        "production"
     ],
     [
         4.5,
-        "Request To Post On Mathsoc Social Media"
+        "Request To Post On Mathsoc Social Media",
+        "production"
     ],
     [
         4.5,
-        "Request To Post In Mathnews"
+        "Request To Post In Mathnews",
+        "production"
     ],
     [
         4.5,
-        "Request To Post On Mathsoc Website"
+        "Request To Post On Mathsoc Website",
+        "production"
     ],
     [
         4.5,
-        "Ask Instructors For The Course To Distribute In Class"
+        "Ask Instructors For The Course To Distribute In Class",
+        "production"
     ],
     [
         4.5,
-        "Get Final Feedback From Student Reviewers"
+        "Get Final Feedback From Student Reviewers",
+        "production"
     ],
     [
         5.5,
-        "Show Artists/Writers Where Work Is Published"
+        "Show Artists/Writers Where Work Is Published",
+        "production"
     ],
     [
         5.5,
-        "Present Feedback To Artist"
+        "Present Feedback To Artist",
+        "production"
     ],
     [
         7.5,
-        "Follow Up To Make Sure Artist And Writer Received Cheque - This May Take Longer Due To Mailing Delays :("
+        "Follow Up To Make Sure Artist And Writer Received Cheque - This May Take Longer Due To Mailing Delays :(",
+        "production"
     ]
 ]
