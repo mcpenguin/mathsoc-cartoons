@@ -4,7 +4,8 @@
   "description": "This repository houses any scripts used for MathSoc Cartoons.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.ts"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/mcpenguin/mathsoc-cartoons#readme",
   "devDependencies": {
+    "@types/node": "^17.0.8",
     "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@notionhq/client": "^0.4.12",
+    "notion": "^0.0.1"
   }
 }
