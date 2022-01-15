@@ -1,26 +1,33 @@
 // load env
 require('dotenv').config();
 
-// initialize Notion client
-const { Client } = require('@notionhq/client');
+import NotionClient from './notion/notionClient';
 
-const client = new Client({ auth: process.env.NOTION_ACCESS_TOKEN });
+// get test database id
+const databaseId = require('./notion/databases/databases.ts').test;
 
-const addItem = require('./databases/addItem.ts');
+const client = new NotionClient(process.env.NOTION_ACCESS_TOKEN);
 
-// get database id of comics
-const testId = require("./databases/databases.ts").test;
-
-addItem(client, testId, {
-    title: {
+client.addItem(databaseId, {
+    Title: {
         title: [
             {
-                "text": {
-                    "content": "Yurts in Big Sur, California"
-                }
+                text: {
+                    content: 'Tuscan Kale 2',
+                },
+            },
+        ],
+    },
+    'Asset Type': {
+        multi_select: [
+            {
+                name: "Logo" 
+            },
+            {
+                name: "Loop"
             }
         ]
     }
 })
-.then(console.log)
-.catch(console.error);
+    .then(res => console.log(res))
+    .catch(err => console.error(err))
