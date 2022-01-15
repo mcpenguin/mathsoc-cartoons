@@ -1,13 +1,12 @@
-const notion = require('notion');
-
 /**
  * @description Add a new item to Notion database
+ * @param {Client} client - Notion client
  * @param databaseId 
  * @param item 
  */
-async function addItem(databaseId, item) {
+async function addItem(client, databaseId, item) {
     try {
-        const response = await notion.pages.create({
+        const response = await client.pages.create({
             parent: { database_id: databaseId },
             properties: item,
         })
