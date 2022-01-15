@@ -1,0 +1,23 @@
+{
+  "name": "mathsoc-cartoons",
+  "version": "1.0.0",
+  "description": "This repository houses any scripts used for MathSoc Cartoons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcpenguin/mathsoc-cartoons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcpenguin/mathsoc-cartoons/issues"
+  },
+  "homepage": "https://github.com/mcpenguin/mathsoc-cartoons#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
