@@ -1,9 +1,6 @@
 # import libraries for icalendar
 from icalendar import Calendar, Event
-import pytz
 from datetime import datetime, timedelta
-import os
-from pathlib import Path
 
 import json
 import csv
