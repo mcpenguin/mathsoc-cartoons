@@ -13,6 +13,11 @@ Python libraries and dependencies.
 
 4. Fill in `deadlines.csv` with the deadlines for the comics of the current term, once the deadlines have been decided.
 You can use the existing data to help format the data for the upcoming comics.
+  - Ask MathNEWS for the production night dates for the term (this is when we need to submit the comics by)
+  - Usually:
+    - Final art is usually ~1 week before the production night
+    - Rough draft is usually ~3 weeks before the production night
+    - Sketch is usually ~5 weeks before the production night
 
 5. Run `python make_calendar.py` to generate the reminders for the comics for the upcoming term, 
 and `python make_deadlines.py` to generate the deadlines for the comics for the upcoming term.
